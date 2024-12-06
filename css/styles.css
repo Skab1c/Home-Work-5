@@ -1,0 +1,108 @@
+@import url("reset.css");
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container {
+  margin: 0 auto;
+}
+h1 {
+  color: red;
+  width: 450px;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+}
+.div1 > p {
+  color: white;
+  width: 450px;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  font-size: 19px;
+}
+.div2 > p {
+  font-size: 20px;
+  color: white;
+}
+.div1 {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+.div2 {
+  width: 1600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: darkblue;
+  padding: 10px;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+.div3 {
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: darkblue;
+  padding: 5px;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+.div3 + div {
+  background-color: red;
+  width: 1800px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0 0 25px 0 red;
+}
+.div4 > img {
+  width: 590px;
+}
+.div3 > a {
+  font-size: 20px;
+  color: aqua;
+}
+
+/* Second Page Styles */
+
+.div1_p2 {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+
+.div1_p2 > h2 {
+  color: white;
+  width: 450px;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+}
+.div2_p2 > p {
+  margin: 20px auto;
+  color: white;
+  width: 1800px;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  font-size: 19px;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+.div3_p2 {
+  margin: 10px auto;
+  width: 350px;
+  background-color: darkblue;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 0 0 25px 0 darkblue;
+}
+.div3_p2 > a {
+  font-size: 20px;
+  color: aqua;
+}
